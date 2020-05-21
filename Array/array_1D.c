@@ -77,9 +77,9 @@ void insert(int pos)
     else
     {
         int data,temp=pos-1;
-        for (int i = pos-1; i < index; i++)
+        for (int i = index+1; i >= temp; i--)
         {
-            arr[index+1]=arr[index];
+            arr[i]=arr[i-1];
         }
         printf("Enter data : ");
         scanf("%d",&data);
