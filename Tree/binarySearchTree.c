@@ -105,7 +105,7 @@ void delete(int data)
         } 
     }
 
-    if (current-data==NULL)
+    if (current->data==NULL)
     {
         printf("Data not found!");
     }
